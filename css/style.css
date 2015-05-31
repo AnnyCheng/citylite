@@ -333,12 +333,11 @@ nav a{
 
 .home-block{
 	margin-bottom: 20px;
-	padding-top: 20px;
 }
 
 .home-block-heading{
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	background: url(../img/div-line.png) repeat-x center center;
 }
 
@@ -349,7 +348,7 @@ nav a{
 .home-block figure{
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	position: relative;
 	overflow: hidden;
 	line-height: 1.2em;
@@ -448,7 +447,7 @@ nav a{
 
 .one-third-thumbs figure{ width: 300px; }
 
-.one-fourth-thumbs figure{ width: 140px; }
+.one-fourth-thumbs figure{ width: 220px; }
 
 .more-link{
 	margin-bottom: 0px;
@@ -912,7 +911,7 @@ article .meta .user{
 /* SLIDER-HOLDER ------------------------------------------------------------*/
 
 #slider-holder{
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 }
 
 .home-slider{
