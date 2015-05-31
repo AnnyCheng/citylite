@@ -203,18 +203,19 @@ nav a{
 
 #nav>li>a{
 	font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 300;
 	display: block;
 	overflow: hidden;
 	padding: 0px 0px 7px 0px;
-	text-shadow: 2px 2px 0px rgba(0, 0, 0, .6);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, .6);
 }
 
 
 #nav>li.current-menu-item>a,
 #nav>li.current_page_item>a{
-	border-bottom: solid #ebebe8 5px;
+	/*border-bottom: solid #ebebe8 5px;*/
+	border-bottom: solid #213c87 5px;
 }
 
 
@@ -458,7 +459,7 @@ nav a{
 
 #main{
 	padding-top: 40px;
-	background: url(../img/oblique-lines.png) repeat-x;
+	/*background: url(../img/oblique-lines.png) repeat-x;*/
 	margin-bottom: 60px;
 }
 
@@ -963,6 +964,22 @@ article .meta .user{
 footer .wrapper,
 .footer-bottom{
 	padding-top: 40px;
+}
+.footer-bottom .col-md-6{
+	text-align: center;
+	float: left;
+}
+
+@media screen and (min-width: 768px){
+	.footer-bottom .col-md-6{
+		width: 50%;
+
+	} 
+}
+@media screen and (max-width: 767px){
+	.footer-bottom .col-md-6{
+		width: 100%;
+	}
 }
 
 
