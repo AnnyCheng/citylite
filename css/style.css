@@ -203,18 +203,19 @@ nav a{
 
 #nav>li>a{
 	font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 300;
 	display: block;
 	overflow: hidden;
 	padding: 0px 0px 7px 0px;
-	text-shadow: 2px 2px 0px rgba(0, 0, 0, .6);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, .6);
 }
 
 
 #nav>li.current-menu-item>a,
 #nav>li.current_page_item>a{
-	border-bottom: solid #ebebe8 5px;
+	/*border-bottom: solid #ebebe8 5px;*/
+	border-bottom: solid #213c87 5px;
 }
 
 
@@ -333,11 +334,12 @@ nav a{
 
 .home-block{
 	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 .home-block-heading{
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	background: url(../img/div-line.png) repeat-x center center;
 }
 
@@ -348,7 +350,7 @@ nav a{
 .home-block figure{
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	position: relative;
 	overflow: hidden;
 	line-height: 1.2em;
@@ -447,7 +449,7 @@ nav a{
 
 .one-third-thumbs figure{ width: 300px; }
 
-.one-fourth-thumbs figure{ width: 220px; }
+.one-fourth-thumbs figure{ width: 140px; }
 
 .more-link{
 	margin-bottom: 0px;
@@ -457,7 +459,7 @@ nav a{
 
 #main{
 	padding-top: 40px;
-	background: url(../img/oblique-lines.png) repeat-x;
+	/*background: url(../img/oblique-lines.png) repeat-x;*/
 	margin-bottom: 60px;
 }
 
@@ -911,7 +913,7 @@ article .meta .user{
 /* SLIDER-HOLDER ------------------------------------------------------------*/
 
 #slider-holder{
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 }
 
 .home-slider{
@@ -962,6 +964,22 @@ article .meta .user{
 footer .wrapper,
 .footer-bottom{
 	padding-top: 40px;
+}
+.footer-bottom .col-md-6{
+	text-align: center;
+	float: left;
+}
+
+@media screen and (min-width: 768px){
+	.footer-bottom .col-md-6{
+		width: 50%;
+
+	} 
+}
+@media screen and (max-width: 767px){
+	.footer-bottom .col-md-6{
+		width: 100%;
+	}
 }
 
 
