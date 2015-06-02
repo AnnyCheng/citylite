@@ -257,7 +257,8 @@
 #contactForm input[type="text"],
 #commentform input[type="text"]{
 	overflow: auto;
-	width: 200px;
+	max-width: 550px;
+	width: 80%;
 	margin-bottom: 20px;
 	
 	overflow: hidden;
