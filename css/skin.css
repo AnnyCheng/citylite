@@ -9,6 +9,7 @@ body,
 .page-heading span{
 	/*background: #ebebe8;*/
 	background-color: #ffffff;
+	font-family: 'microsoft JhengHei';
 }
 
 body a{ color: #444; }
@@ -61,7 +62,7 @@ header{
 
 /* NAVIGATION ------------------------------------------------------------*/
 
-nav a{ color: #E2E0D7; }
+nav a{ color: #8D8D8D; }
 
 #nav>li.current-menu-item>a,
 #nav>li.current_page_item>a{
